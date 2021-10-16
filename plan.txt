@@ -1,0 +1,4 @@
+yarn create directory 
+craete a npm prioject and install all dependencies
+Create express server
+Create home using html css  include (tailwind css)
