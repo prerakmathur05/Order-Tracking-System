@@ -1,0 +1,36 @@
+@import "./variables"; //even if you dont give _ the saas understands this is a partial file
+
+body{
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing : antialiased;
+}
+nav li:last-child a{
+    background-color: $primary;
+    &:hover{
+        background: $primary-hover;
+    }
+}
+
+nav li a{
+    transition: $smooth;
+    &:hover{
+    color: $primary;
+    }
+
+}
+section.hero{
+    background: $secondary ;
+}
+.size{
+    background: $secondary;
+}
+.add-to-cart{
+    border:2px solid $primary;
+    color: $primary;
+    &:hover{
+        background: $primary;
+        border-color: $pure;
+        color: $pure;
+        transition: $smooth;
+    }
+}
