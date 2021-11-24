@@ -34,3 +34,15 @@ section.hero{
         transition: $smooth;
     }
 }
+.order-now{
+    border:2px solid $primary;
+    color: $primary;
+    &:hover{
+        background: $primary;
+        border-color: $pure;
+        color: $pure;
+        transition: $smooth;
+    }
+    
+}
+

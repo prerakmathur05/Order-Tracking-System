@@ -35,3 +35,14 @@ section.hero {
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
+
+.order-now {
+  border: 2px solid #FE5F1E;
+  color: #FE5F1E;
+}
+.order-now:hover {
+  background: #FE5F1E;
+  border-color: #fff;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
